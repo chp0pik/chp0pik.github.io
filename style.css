@@ -68,6 +68,6 @@ footer {
 }
 @media (max-width: 600px) {
 	#contact {
-		word-break: break-all;
+		font-size: 0.85rem;
 }
 }		
