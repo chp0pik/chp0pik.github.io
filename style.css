@@ -72,7 +72,7 @@ footer {
     width: 120px; /* Уменьшаем размер на мобильных */
     border-width: 2px; /* Тоньше рамка */
   }
-
+}
 /* Планшеты */
 @media (max-width: 900px) {
   .title {
