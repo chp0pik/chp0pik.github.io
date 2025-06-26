@@ -49,4 +49,11 @@ footer {
  border: 3px solid #000000;
   border-radius: 10px;
 }
+.content-box {
+  background-color: white;       /* Белый фон */
+  max-width: 800px;             /* Ширина блока */
+  margin: 40px auto;            /* Центрирование + отступы сверху/снизу */
+  padding: 30px;                /* Внутренние отступы */
+  border-radius: 15px;          /* Закругленные углы */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
 }
