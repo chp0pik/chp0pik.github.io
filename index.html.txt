@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя визитка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Александров Александр</h1>
+    <p>Я изучаю веб-дизайн и фронтенд-разработку</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>Обо мне</h2>
+      <p>Хочу создавать удобные и красивые сайты. Буду работать с HTML, CSS и JavaScript.</p>
+    </section>
+
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <ul>
+        <li>Email: <a href="mailto:example@mail.com">p.minsk.aleksandrov@gmail.com</a></li>
+        <li>Telegram: <a href="https://t.me/chp0pik">@chp0pik</a></li>
+        <li>Портфолио: <a href="#">Тут будет ссылка на работы</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Моя визитка</p>
+  </footer>
+</body>
+</html>
