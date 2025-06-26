@@ -31,3 +31,8 @@ footer {
   margin-top: 50px;
   color: #7f8c8d;
 }
+
+.logo {
+  border: 3px solid #0ff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
