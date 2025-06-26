@@ -55,6 +55,7 @@ footer {
     width: 120px; /* Уменьшаем размер на мобильных */
     border-width: 2px; /* Тоньше рамка */
   }
+	
 .content-box {
   background-color: white;       /* Белый фон */
   max-width: 800px;             /* Ширина блока */
