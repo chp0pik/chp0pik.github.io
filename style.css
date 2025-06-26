@@ -68,7 +68,7 @@ footer {
 }
 @media (max-width: 600px) {
   li {
-    font-size: 0.8rem;    /* Уменьшаем размер */
+    font-size: 0.7rem;    /* Уменьшаем размер */
     margin-bottom: 2px;   /* Уменьшаем отступ */
   }
 }
