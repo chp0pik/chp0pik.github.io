@@ -45,6 +45,15 @@ footer {
   color: #7f8c8d;
 }
 
+.title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.text-block {
+  font-size: 1.1rem;
+}
+
 #logo {
  border: 3px solid #000000;
   border-radius: 10px;
@@ -64,3 +73,37 @@ footer {
     width: 120px; /* Уменьшаем размер на мобильных */
     border-width: 2px; /* Тоньше рамка */
   }
+.title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.text-block {
+  font-size: 1.1rem;
+}
+
+/* Планшеты */
+@media (max-width: 900px) {
+  .title {
+    font-size: 1.7rem;
+  }
+}
+
+/* Мобильные (вертикальная ориентация) */
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-block {
+    font-size: 0.95rem;
+  }
+}
+
+/* Маленькие мобильные */
+@media (max-width: 400px) {
+  .title {
+    font-size: 1.2rem;
+  }
+}
