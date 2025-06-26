@@ -49,12 +49,6 @@ footer {
  border: 3px solid #000000;
   border-radius: 10px;
 }
-/* Адаптация для маленьких экранов */
-@media (max-width: 600px) {
-  #logo {
-    width: 120px; /* Уменьшаем размер на мобильных */
-    border-width: 2px; /* Тоньше рамка */
-  }
 	
 .content-box {
   background-color: white;       /* Белый фон */
@@ -64,3 +58,9 @@ footer {
   border-radius: 15px;          /* Закругленные углы */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
 }
+/* Адаптация для маленьких экранов */
+@media (max-width: 600px) {
+  #logo {
+    width: 120px; /* Уменьшаем размер на мобильных */
+    border-width: 2px; /* Тоньше рамка */
+  }
