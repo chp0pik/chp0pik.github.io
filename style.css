@@ -46,7 +46,7 @@ footer {
 }
 
 #logo {
- background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
-	z-index: -1;
-	border-radius: 6px;
+ border: 3px solid #000000;
+  border-radius: 0;
+}
 }
