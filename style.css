@@ -67,7 +67,14 @@ footer {
   }
 }
 @media (max-width: 600px) {
-	#contact {
-		font-size: 0.85rem;
+  li {
+    font-size: 0.7rem;    /* Уменьшаем размер */
+    margin-bottom: 8px;   /* Уменьшаем отступ */
+  }
 }
-}		
+@media (max-width: 600px) {
+  h1 {
+    font-size: 0.9rem;    /* Уменьшаем размер */
+    margin-bottom: 4px;   /* Уменьшаем отступ */
+  }
+}
