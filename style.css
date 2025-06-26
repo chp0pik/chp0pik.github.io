@@ -10,14 +10,7 @@ body {
   padding: 20px;
   color: #333;
 }
-.title {
-  font-size: 2rem;
-  margin-bottom: 30px;
-}
 
-.text-block {
-  font-size: 1.1rem;
-}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -73,28 +66,8 @@ footer {
     border-width: 2px; /* Тоньше рамка */
   }
 }
-/* Планшеты */
-@media (max-width: 900px) {
-  .title {
-    font-size: 1.7rem;
-  }
-}
-
-/* Мобильные (вертикальная ориентация) */
 @media (max-width: 600px) {
-  .title {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-  }
-  
-  .text-block {
-    font-size: 0.95rem;
-  }
+	#contact {
+		word-break: break-all;
 }
-
-/* Маленькие мобильные */
-@media (max-width: 400px) {
-  .title {
-    font-size: 1.2rem;
-  }
-}
+}		
